@@ -37,5 +37,5 @@ def run_web():
 
 # --- EJECUTAR AMBOS ---
 if __name__ == "__main__":
-    threading.Thread(target=run_bot).start()
-    run_web()
+    threading.Thread(target=run_web).start()
+run_bot()
